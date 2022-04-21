@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Permanent+Marker&family=Sofia&family=Trocchi&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+form .input-padron,
+form textarea {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+form .checkbox {
+  margin: 20px 0;
+}
+
+form .boton {
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+form .boton:hover {
+  background-color: darkorange;
+  transform: scale(1.2);
+}
+
+table {
+  margin: 40px 40px;
+}
+
+thead {
+  background-color: #555;
+  color: #fff;
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 1px solid #000;
+  padding: 8px 15px;
+}
+
+@media screen and (max-width: 480px){
+  main{
+    width: auto;
+    margin: 40px 0 40px 5px;
+  }
+
+  form .boton{
+    width: 50%;
+    margin: 0 65px;
+    display: block;
+  }
+}

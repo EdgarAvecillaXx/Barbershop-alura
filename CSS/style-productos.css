@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Permanent+Marker&family=Sofia&family=Trocchi&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+
+ul.productos {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+
+ul.productos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 15px;
+}
+
+ul.productos li:hover {
+  border-color: #c78c19;
+}
+
+ul.productos li:active {
+  border-color: #088c19;
+}
+
+ul.productos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+ul.productos li:hover h2 {
+  font-size: 33px;
+}
+
+ul.productos p.description {
+  font-size: 18px;
+}
+
+ul.productos p.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 480px){
+  main, ul.productos{
+    width: auto;
+    
+  }
+
+  ul.productos li{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
